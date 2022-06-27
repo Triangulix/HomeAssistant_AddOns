@@ -1,0 +1,16 @@
+{
+  "name": "Local SoX Play",
+  "version": "1.0.0",
+  "slug": "sox_play",
+  "description": "Call the local SoX play command to play or generate sound",
+  "startup": "before",
+  "boot": "auto",
+  "stdin": true,
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "audio": true,
+  "options": {},
+  "schema": {},
+  "host_network": true,
+  "map": ["media"],
+  "init": false
+}
