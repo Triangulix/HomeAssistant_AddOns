@@ -30,6 +30,7 @@ OR
           input: "/media/08661_SFX.mp3 vol -10dB"
 ```
 "vol -10dB" plays the file 10dB less loud, "vol 10dB" would increae the volume by 10dB.
+"vol 0.5" ist another possible notation.
 
 #### Play a remote hosted file
 ```yaml
@@ -46,7 +47,7 @@ OR
       - service: hassio.addon_stdin
         data:        
           addon: local_sox_play
-          input: "-n synth 0.25 sin 500"
+          input: "-n synth 0.25 sin 500 vol 0.5"
 ```
 Creates a beep sound
 
